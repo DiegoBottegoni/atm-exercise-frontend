@@ -59,7 +59,7 @@ export default function Dashboard({ onLogout }: DashboardProps) {
                 {balance !== null && <p>Saldo actual: ${balance}</p>}
 
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="amount" className="font-medium">Cantidad</label>
+                    <label htmlFor="amount" className="font-medium">Cantidad a depositar o retirar:</label>
                     <input
                         id="amount"
                         type="number"
